@@ -4,7 +4,6 @@ const app = express()
 const port = 3000
 
 const githubData = {
-  {
     "login": "premvarma2002",
     "id": 98645019,
     "node_id": "U_kgDOBeE0Gw",
@@ -38,7 +37,6 @@ const githubData = {
     "created_at": "2022-01-29T11:24:18Z",
     "updated_at": "2023-11-23T14:53:46Z"
   }
-}
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
